@@ -39,9 +39,6 @@ table{
      </div>
       <div>{{ $product->price }}
       </div>
- 
-      <div> qty{{ Form::text('quantity', '',['size'=>'4']) }}
-        </div>
         <div  class="pull-right"> 
         {{Form::submit('Add to cart',['class' =>'btn btn-success ','onclick'=>"alert('check your shopping cart')"]) }}</div>
       </div>
